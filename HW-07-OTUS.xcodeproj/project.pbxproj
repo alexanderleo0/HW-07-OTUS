@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B3CFA0B2A39DDAA00EB9F8F /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CFA0A2A39DDAA00EB9F8F /* Services.swift */; };
+		7B3CFA0D2A39E1B300EB9F8F /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3CFA0C2A39E1B300EB9F8F /* Source.swift */; };
+		7BA083D12A3469E1001180F3 /* HW_07_OTUSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA083D02A3469E1001180F3 /* HW_07_OTUSApp.swift */; };
+		7BA083D32A3469E1001180F3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA083D22A3469E1001180F3 /* MainView.swift */; };
+		7BA083D52A3469E2001180F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA083D42A3469E2001180F3 /* Assets.xcassets */; };
+		7BA083D82A3469E2001180F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA083D72A3469E2001180F3 /* Preview Assets.xcassets */; };
+		7BA083DF2A3469F6001180F3 /* SecretS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA083DE2A3469F6001180F3 /* SecretS.swift */; };
+		7BA084062A347765001180F3 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA084052A347765001180F3 /* MainViewModel.swift */; };
+		7BA084242A347B8D001180F3 /* NewsArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA084132A347B8D001180F3 /* NewsArray.swift */; };
+		7BA084252A347B8D001180F3 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA084142A347B8D001180F3 /* News.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B3CFA092A39DB8000EB9F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7B3CFA0A2A39DDAA00EB9F8F /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		7B3CFA0C2A39E1B300EB9F8F /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		7BA083CD2A3469E1001180F3 /* HW-07-OTUS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW-07-OTUS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA083D02A3469E1001180F3 /* HW_07_OTUSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_07_OTUSApp.swift; sourceTree = "<group>"; };
+		7BA083D22A3469E1001180F3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7BA083D42A3469E2001180F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BA083D72A3469E2001180F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BA083DE2A3469F6001180F3 /* SecretS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretS.swift; sourceTree = "<group>"; };
+		7BA084052A347765001180F3 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		7BA084132A347B8D001180F3 /* NewsArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsArray.swift; sourceTree = "<group>"; };
+		7BA084142A347B8D001180F3 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BA083CA2A3469E1001180F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B3E6D7B2A4035D700ACF8C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7BA083D22A3469E1001180F3 /* MainView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7B3E6D7C2A4035F200ACF8C6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7BA084052A347765001180F3 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7B3E6D7D2A4035F900ACF8C6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7B3CFA0A2A39DDAA00EB9F8F /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7B3E6D7E2A40360300ACF8C6 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				7BA083D02A3469E1001180F3 /* HW_07_OTUSApp.swift */,
+				7BA083DE2A3469F6001180F3 /* SecretS.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		7BA083C42A3469E1001180F3 = {
+			isa = PBXGroup;
+			children = (
+				7BA083CF2A3469E1001180F3 /* HW-07-OTUS */,
+				7BA083CE2A3469E1001180F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BA083CE2A3469E1001180F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BA083CD2A3469E1001180F3 /* HW-07-OTUS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BA083CF2A3469E1001180F3 /* HW-07-OTUS */ = {
+			isa = PBXGroup;
+			children = (
+				7B3CFA092A39DB8000EB9F8F /* Info.plist */,
+				7B3E6D7E2A40360300ACF8C6 /* Support */,
+				7BA084112A347B8D001180F3 /* Models */,
+				7B3E6D7B2A4035D700ACF8C6 /* Views */,
+				7B3E6D7C2A4035F200ACF8C6 /* ViewModel */,
+				7B3E6D7D2A4035F900ACF8C6 /* Services */,
+				7BA083D42A3469E2001180F3 /* Assets.xcassets */,
+				7BA083D62A3469E2001180F3 /* Preview Content */,
+			);
+			path = "HW-07-OTUS";
+			sourceTree = "<group>";
+		};
+		7BA083D62A3469E2001180F3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7BA083D72A3469E2001180F3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7BA084112A347B8D001180F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7B3CFA0C2A39E1B300EB9F8F /* Source.swift */,
+				7BA084132A347B8D001180F3 /* NewsArray.swift */,
+				7BA084142A347B8D001180F3 /* News.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BA083CC2A3469E1001180F3 /* HW-07-OTUS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BA083DB2A3469E2001180F3 /* Build configuration list for PBXNativeTarget "HW-07-OTUS" */;
+			buildPhases = (
+				7BA083C92A3469E1001180F3 /* Sources */,
+				7BA083CA2A3469E1001180F3 /* Frameworks */,
+				7BA083CB2A3469E1001180F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HW-07-OTUS";
+			productName = "HW-07-OTUS";
+			productReference = 7BA083CD2A3469E1001180F3 /* HW-07-OTUS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BA083C52A3469E1001180F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7BA083CC2A3469E1001180F3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7BA083C82A3469E1001180F3 /* Build configuration list for PBXProject "HW-07-OTUS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BA083C42A3469E1001180F3;
+			productRefGroup = 7BA083CE2A3469E1001180F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BA083CC2A3469E1001180F3 /* HW-07-OTUS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BA083CB2A3469E1001180F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA083D82A3469E2001180F3 /* Preview Assets.xcassets in Resources */,
+				7BA083D52A3469E2001180F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BA083C92A3469E1001180F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA083D32A3469E1001180F3 /* MainView.swift in Sources */,
+				7B3CFA0B2A39DDAA00EB9F8F /* Services.swift in Sources */,
+				7BA083DF2A3469F6001180F3 /* SecretS.swift in Sources */,
+				7BA083D12A3469E1001180F3 /* HW_07_OTUSApp.swift in Sources */,
+				7B3CFA0D2A39E1B300EB9F8F /* Source.swift in Sources */,
+				7BA084242A347B8D001180F3 /* NewsArray.swift in Sources */,
+				7BA084252A347B8D001180F3 /* News.swift in Sources */,
+				7BA084062A347765001180F3 /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7BA083D92A3469E2001180F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BA083DA2A3469E2001180F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BA083DC2A3469E2001180F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HW-07-OTUS/Preview Content\"";
+				DEVELOPMENT_TEAM = N73PD4YDBG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HW-07-OTUS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "al.nikitin.HW-07-OTUS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BA083DD2A3469E2001180F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HW-07-OTUS/Preview Content\"";
+				DEVELOPMENT_TEAM = N73PD4YDBG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HW-07-OTUS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "al.nikitin.HW-07-OTUS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BA083C82A3469E1001180F3 /* Build configuration list for PBXProject "HW-07-OTUS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA083D92A3469E2001180F3 /* Debug */,
+				7BA083DA2A3469E2001180F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BA083DB2A3469E2001180F3 /* Build configuration list for PBXNativeTarget "HW-07-OTUS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA083DC2A3469E2001180F3 /* Debug */,
+				7BA083DD2A3469E2001180F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BA083C52A3469E1001180F3 /* Project object */;
+}
